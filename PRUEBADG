@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Segarra - Creación de E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            width: 100%;
+            height: 100vh;
+            background-color: #f0f0f0; /* Color temporal hasta que se agregue la imagen */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #333;
+            margin: 0;
+        }
+        .header h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #555;
+        }
+        .content {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        p, ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "•";
+            margin-right: 10px;
+            color: #555;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera ocupando toda la pantalla -->
+    <div class="header">
+        <h1>LEO SEGARRA</h1>
+        <h2>CREACIÓN DE ECOMMERCE</h2>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h3>¿Qué es?</h3>
+        <p>Se trata de una Subvención para la Modernización Digital y la mejora de la competitividad. La financiación de las ayudas se efectúa con fondos del Plan de Recuperación, Transformación y Resiliencia de España, financiado por el Plan europeo <i>Next Generation</i> de la Unión Europea. Esta ayuda está enfocada a autónomos, microempresas y PYMES de menos de 50 empleados, con domicilio de actividad en España.</p>
+        <p>El objetivo de esta ayuda es mejorar el proceso de digitalización y competitividad de estos colectivos, facilitando a las empresas y emprendedores acceder a diferentes soluciones tecnológicas digitales. Los servicios subvencionables deben de ser prestados por los <i>Agentes Digitalizadores</i>, empresas con amplio bagaje profesional y solvencia técnica que se convierten en Proveedores homologados.</p>
+        
+        <p>Descárgate aquí:</p>
+        <ul>
+            <li>Bases reguladoras de la concesión de ayudas para la digitalización.</li>
+            <li>Anuncio de adhesión para digitalizadores.</li>
+            <li>Próximos eventos.</li>
+        </ul>
+
+        <h3>¿A quién va dirigido?</h3>
+        <p>Las soluciones digitales que proporciona el Kit Digital están orientadas a las pequeñas empresas, microempresas y autónomos:</p>
+        <ul>
+            <li>Segmento I: Pequeñas empresas de entre 10 a 49 empleados.</li>
+            <li>Segmento II: Pequeñas empresas de entre 3 a 9 empleados.</li>
+            <li>Segmento III: Autónomos y pequeñas empresas de 1 o 2 empleados.</li>
+        </ul>
+
+        <h3>¿Cómo conseguir el bono digital?</h3>
+        <p>Si cumples con las condiciones establecidas en las bases de la convocatoria del Kit Digital, podrás disponer de un bono digital para acceder a soluciones de digitalización.</p>
+        <a href="#">Descárgate la Guía rápida</a>
+
+        <h3>PRODUCTOS KIT DIGITAL</h3>
+        <h4>Ecommerce</h4>
+        <p>El objetivo es crear un espacio de compraventa de productos y/o servicios que utilice medios digitales para su intercambio. Dispondrás de un ecommerce o tienda online con:</p>
+        <ul>
+            <li>Creación de tienda online y alta de catálogo de productos.</li>
+            <li>Métodos de pago configurados e integrados.</li>
+            <li>Diseño responsive y accesible (WCAG-2.1 AA).</li>
+            <li>Posicionamiento básico en internet (On-Page).</li>
+            <li>Autogestionable y con métodos de envío configurados.</li>
+        </ul>
+        <p><strong>Rango de precios:</strong> Desde 1.200€ (sin impuestos).</p>
+        <p><strong>Importe máximo de la ayuda:</strong> 2.000€.</p>
+
+        <h4>Sitio Web y presencia en internet</h4>
+        <p>El objetivo es que tengas una página web para mejorar la visibilidad de tu negocio, con:</p>
+        <ul>
+            <li>Dominio y hosting por 12 meses.</li>
+            <li>Diseño con al menos 3 apartados.</li>
+            <li>Web responsive y accesible (WCAG-2.1 AA).</li>
+            <li>Posicionamiento básico en internet (SEO básico).</li>
+            <li>Autogestionable y optimización en buscadores (SEO).</li>
+        </ul>
+        <p><strong>Rango de precios:</strong> Desde 700€ (sin impuestos) y presencia online desde 150€/mes.</p>
+        <p><strong>Importe máximo de la ayuda:</strong> 2.000€.</p>
+    </div>
+
+</body>
+</html>
